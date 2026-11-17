@@ -1,0 +1,72 @@
+.root {
+    -fx-background-color: rgb(83, 117, 157);
+    -fx-font-family: "Arial";
+}
+
+#cityName {
+    -fx-font-size:32px;
+    -fx-fill: white;
+}
+
+#titleText {
+    -fx-font-size: 48px;
+    -fx-fill: white;
+}
+
+.weather-text {
+    -fx-fill: white;
+    -fx-font-size: 28px;
+}
+
+Text.weather-label {
+    -fx-font-size:12px;
+    /*-fx-fill: rgb(128, 177, 236);*/
+    -fx-fill: rgb(160, 190, 222);
+    -fx-font-weight: bold;
+}
+
+Label.weather-label {
+    -fx-font-size: 12px;
+    /*-fx-text-fill: rgb(128, 177, 236);*/
+    -fx-text-fill: rgb(160, 190, 222);
+    -fx-font-weight: bold;
+}
+
+#fetchButton {
+    -fx-background-radius: 8;
+    -fx-padding: 5 25;
+    -fx-background-color: rgb(31, 75, 154);
+    -fx-font-weight:bold;
+    -fx-text-fill: white;
+    -fx-cursor:hand;
+}
+#fetchButton:hover {
+    -fx-background-color: #2463D5;
+}
+
+
+#searchAgainButton {
+    -fx-background-radius: 8;
+    -fx-padding: 5 25;
+    -fx-background-color: black;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-cursor:hand;
+}
+
+.searchTextField {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #D5DCE5;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+}
+
+.weatherSection {
+    -fx-background-color: rgb(100 , 144, 192);
+    -fx-background-radius: 20px;
+    -fx-padding: 18px;
+    -fx-spacing: 20px;
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+}
