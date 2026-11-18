@@ -1,7 +1,8 @@
 # Weather Forecasting Application
 
+A weather forecasting app built using Java and JavaFx.
 
-A weather forecasting app built using Java and JavaFx
+Built without artificial-aid from Generate-AI models.
 
 ## Build dependencies (Maven)
 
